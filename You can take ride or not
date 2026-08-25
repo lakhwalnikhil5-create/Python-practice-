@@ -1,0 +1,9 @@
+h=int(input ("enter height" ))
+a=int(input ("enter age"))
+if h<3:
+    print("You can not take ride")
+else:
+    if a<18:
+        print("you can take ride & ticket is 100 ")   
+    else:
+        print("you can take ride & ticket is 200")     
