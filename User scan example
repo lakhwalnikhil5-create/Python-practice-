@@ -1,0 +1,13 @@
+a = int(input("enter the value of a:"))
+b = int(input("enter the value of b:"))
+c = a + b
+d = a - b
+e = a * b
+f = float(a / b)
+
+print("A:", a)
+print("B:", b)
+print("Sum:", c)  # Fixed here
+print("sub:", d)
+print("Mul:", e)
+print("Div:", f)
